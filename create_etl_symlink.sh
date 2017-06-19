@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -sf "$etlDirectory$" "$etlProjectName$
+ln -sf "$etlDirectory$" "$etlProjectName$"
