@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -sf "$sdiDeploymentUtilsDirectory$" "sdi_deployment_utils"
-ln -sf "$etlDirectory$" "$etlJobName$"
+ln -s "$sdiDeploymentUtilsDirectory$" "sdi_deployment_utils"
+ln -s "$etlDirectory$" "$etlJobName$"
