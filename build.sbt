@@ -26,10 +26,10 @@ lazy val sdiDeploymentUtils =
     )
 
 lazy val etlProject =
-  (project in file("$etlProjectName$"))
+  (project in file("$etlJobName$"))
     .settings(
       commonSettings,
-      name := "$etlProjectName$",
+      name := "$etlJobName$",
       libraryDependencies += "org.postgresql" % "postgresql" % "42.1.1",
       scalaSource in Compile := file("$etlDirectory$/src")
     ).dependsOn(sdiDeploymentUtils)
